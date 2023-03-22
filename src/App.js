@@ -4,7 +4,7 @@ import WeatherCard from "./components/WeatherCard";
 import WeeklyForecast from "./components/WeeklyForecast";
 import { useEffect, useState } from "react";
 
-const API_KEY = "0dba8bf4010098adf83c207b4c2db29f";
+const API_KEY = "Due to GitGuardian policy, I had to hide the api key";
 const BASE_URL = "https://api.openweathermap.org/data/2.5";
 
 function App() {
