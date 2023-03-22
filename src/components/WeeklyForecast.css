@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    margin-top: 45px;
+    
+}
+
+
+.forecast__card {
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    width: 20%;
+    padding:20px;
+    text-align: center;
+    margin-left: 15px;
+   
+}
+
+@media(max-width: 995px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 775px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+}
